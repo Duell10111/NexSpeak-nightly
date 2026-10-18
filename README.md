@@ -5,6 +5,8 @@ Discord-like Matrix client with voice and video calls.
 
 This repository only holds the [releases](https://github.com/Duell10111/NexSpeak-nightly/releases);
 the code, issues and discussions live in [Duell10111/NexSpeak](https://github.com/Duell10111/NexSpeak).
+How to use the app is described in the [documentation](https://nexspeak.readthedocs.io), including a
+page on [nightly builds](https://nexspeak.readthedocs.io/en/latest/nightly.html).
 
 > [!WARNING]
 > Nightlies are built automatically from `main` and are not tested by hand. Expect bugs. For
@@ -33,7 +35,7 @@ Download the file for your platform from the
 **NexSpeak Nightly** installs next to the stable NexSpeak app: it has its own name, settings, login
 and `nexspeak-nightly://` links, so both can run at the same time.
 
-The builds are not signed yet:
+The builds are not signed yet ([details](https://nexspeak.readthedocs.io/en/latest/install.html#unsigned-builds)):
 
 - macOS: Gatekeeper blocks the first start. Open it via System Settings → Privacy & Security →
   "Open Anyway", or run `xattr -dr com.apple.quarantine "/Applications/NexSpeak Nightly.app"`.
